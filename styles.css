@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    background-color: #eeecef;
+}
+
+@font-face {
+    font-family: audreyNormal;
+    src: url(fonts/audrey/Audrey-Normal.otf)
+}
+
+/* Index.html */
+
+.recipeSite__title {
+    font-size: 40px;
+}
+
+.recipeSite__container { 
+    align-items: center;
+    background-image: url("img/recipe_site.jpg");
+    background-repeat: none;
+    background-position: 40% 30%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: audreyNormal, sans-serif;
+    height: 100vh;
+    justify-content: center;  
+    letter-spacing: 2px;
+}
+
+.recipeSite__navigation {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.recipeSite__navigationItem {
+    align-items: center;
+    background-color: grey; 
+    border-radius: 15px;
+    color: aliceblue;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 0px 20px;
+    opacity: 85%;
+    text-align: center;
+    text-decoration: none;
+    width: 185px;
+}
+
+.recipeSite__navigationItem:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+/* recipe pages */
+
+.recipe__headContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe__home {
+    height: 40px;
+    margin: 15px;
+    width: 40px;
+}
+
+.recipe__title {
+    font-family: audreyNormal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 18px;
+}
+
+.recipe__description {
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 14px;
+    text-align: center;
+    width: 850px;
+}
+
+.recipe__img {
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+    height: 500px;
+    width: 800px;
+}
+
+.recipe__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px auto;
+    width: 780px;
+}
+
+.recipe__info h2 {
+    font-family: audreyNormal, sans-serif;
+    letter-spacing: 1px;
+}
+
+.recipe__infoTime {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    width: 100%;
+}
+
+.recipe__infoTime p {
+    color: grey;
+    font-size: 17px;
+}
+
+.recipe__instructions {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 780px;
+}
+
+.recipe__ingredients {
+    margin-left: 0;
+    margin-right: 20px;
+    flex: auto;
+    width: 130%;
+}
+
+.recipe__ingredients h2 {
+    font-family: audreyNormal, sans-serif;
+    letter-spacing: 1px;
+}
+
+.recipe__ingredientsList li {
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 10px 0px; 
+}
+
+.recipe__methodContainer {
+    margin-left: 20px;
+    margin-right: 0;
+    flex: auto;
+    word-wrap: break-word;
+}
+
+.recipe__methodContainer h2 {
+    font-family: audreyNormal, sans-serif;
+    letter-spacing: 1px;
+}
+
+.recipe__methodInstructions li {
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 10px 0px; 
+}
